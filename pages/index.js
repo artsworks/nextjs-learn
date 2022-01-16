@@ -3,11 +3,11 @@ export default function Home() {
     <div className="container">
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">AK Labs.js!</a>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          It is now displaying content of <code>pages/index.js</code>
         </p>
 
         <div className="grid">

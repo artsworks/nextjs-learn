@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.action__back {
+  border: 1px solid gray;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

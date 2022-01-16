@@ -11,8 +11,8 @@ export default function Navbar() {
   return (
     <nav className="menu">
       <ul>
-        {links.map((link) => (
-          <li>
+        {links.map((link, i) => (
+          <li key={i}>
             <Link href={link.href}>
               <a>{link.name}</a>
             </Link>
