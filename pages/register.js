@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 
 export default function Register() {
@@ -10,10 +10,6 @@ export default function Register() {
 
   const [count, setCount] = useState(1);
   const [formState, setFormState] = useState();
-
-  useEffect(() => {
-    // document.title = `You clicked ${count} times`;
-  });
 
   const onSubmit = (data) => {
     setCount(count + 1);
